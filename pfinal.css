@@ -1,0 +1,35 @@
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+  h1{
+    background-color: rgb(189, 124, 188);
+    justify-content: center;
+   color: rgb(14, 14, 16);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }  
+
+
+
+.personajes{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.informacion {
+background-color: rgb(189, 124, 188);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    margin: 5px;
+    
+}
+.footer{
+    
+   
+    background-color: rgb(189, 124, 188) ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
