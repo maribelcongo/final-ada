@@ -26,17 +26,29 @@ function buscar(page){
 if (page===42) {
   siguiente.disabled = true;
 
+  ultimapagina.disabled = true;
+
 }
- if (page===42) {
+else {
+  siguiente.disabled = false;
+
+  ultimapagina.disabled = false;
+
+}
+
+ if (page===1) {
    anterior.disabled = true;
+
+   primera.disabled = true
+ }
+ else {
+  anterior.disabled = false;
+
+  primera.disabled = false;
+
  }
 
- if (page===42){
-  primera.disabled = true;
- }
- if (page===42){
-  primera.disabled = true;
- }
+ 
 
   fetch ( ` https://rickandmortyapi.com/api/character/?page=`+page )
 
